@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2651D1C623A4F213000C2ADC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2651D1C523A4F213000C2ADC /* main.c */; };
+		26057E9623A4FB260006457E /* test_IMSL.f90 in Sources */ = {isa = PBXBuildFile; fileRef = 26057E9523A4FB260006457E /* test_IMSL.f90 */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		2651D1CC23A4F292000C2ADC /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = "com.intel.compilers.ifort.update-19.0.281";
+			fileType = sourcecode.fortran;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		2651D1C023A4F213000C2ADC /* CopyFiles */ = {
@@ -23,8 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26057E9523A4FB260006457E /* test_IMSL.f90 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.fortran.f90; name = test_IMSL.f90; path = "../../../../test/fortran_video/5.第三方函数库的使用/test_IMSL.f90"; sourceTree = "<group>"; };
 		2651D1C223A4F213000C2ADC /* gitX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitX; sourceTree = BUILT_PRODUCTS_DIR; };
-		2651D1C523A4F213000C2ADC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,7 @@
 		2651D1C423A4F213000C2ADC /* gitX */ = {
 			isa = PBXGroup;
 			children = (
-				2651D1C523A4F213000C2ADC /* main.c */,
+				26057E9523A4FB260006457E /* test_IMSL.f90 */,
 			);
 			path = gitX;
 			sourceTree = "<group>";
@@ -74,6 +88,7 @@
 				2651D1C023A4F213000C2ADC /* CopyFiles */,
 			);
 			buildRules = (
+				2651D1CC23A4F292000C2ADC /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -119,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2651D1C623A4F213000C2ADC /* main.c in Sources */,
+				26057E9623A4FB260006457E /* test_IMSL.f90 in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +256,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZVJ344J8N;
 				ENABLE_HARDENED_RUNTIME = YES;
+				IFORT_MKL = None;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -251,6 +267,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZVJ344J8N;
 				ENABLE_HARDENED_RUNTIME = YES;
+				IFORT_MKL = None;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
