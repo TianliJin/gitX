@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26057E9623A4FB260006457E /* test_IMSL.f90 in Sources */ = {isa = PBXBuildFile; fileRef = 26057E9523A4FB260006457E /* test_IMSL.f90 */; };
+		26057E9823A501630006457E /* rectangle.f90 in Sources */ = {isa = PBXBuildFile; fileRef = 26057E9723A501630006457E /* rectangle.f90 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -37,7 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		26057E9523A4FB260006457E /* test_IMSL.f90 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.fortran.f90; name = test_IMSL.f90; path = "../../../../test/fortran_video/5.第三方函数库的使用/test_IMSL.f90"; sourceTree = "<group>"; };
+		26057E9723A501630006457E /* rectangle.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = rectangle.f90; sourceTree = "<group>"; };
 		2651D1C223A4F213000C2ADC /* gitX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitX; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,7 +71,7 @@
 		2651D1C423A4F213000C2ADC /* gitX */ = {
 			isa = PBXGroup;
 			children = (
-				26057E9523A4FB260006457E /* test_IMSL.f90 */,
+				26057E9723A501630006457E /* rectangle.f90 */,
 			);
 			path = gitX;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26057E9623A4FB260006457E /* test_IMSL.f90 in Sources */,
+				26057E9823A501630006457E /* rectangle.f90 in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
