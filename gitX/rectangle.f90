@@ -2,8 +2,8 @@
 !   rectangle.f90
 !   gitX
 !
-!   Created by 金天力 on 2019/12/14.
-!   Copyright 2019 金天力. All rights reserved.
+!   Created by Tianli on 2019/12/14.
+!   Copyright 2019 Tianli. All rights reserved.
 !
 !Program www_fcode_cn
 !  Implicit None
